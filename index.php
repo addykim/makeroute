@@ -48,33 +48,6 @@
     <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
         <ul class="nav navbar-right">
             <li class="dropdown"></li>
-           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Mode of Travel<span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu" id="dropDownChoice">
-            <li><a href="#" >Driving</a></li>
-            <li><a href="#">Walking</a></li>
-            <li><a href="#">Biking</a></li>
-            <li><a href="#">Transit</a></li>
-          </ul>
-                <script>
-                    function chooseTravel() {
-                        var travel = document.getElementById(dropDownChoice);
-                        //Get value of the input field with id=
-                        if (travel == 1) {
-                            //Driving
-                            window.alert("Driving");
-                        } else if (travel == 2) {
-                            //Walking
-                            window.alert("Walking");
-                        } else if (travel == 3) {
-                            //Transit
-                            window.alert("Transit");
-                        } else {
-                            //Should not happen, not chosen
-                            //Do nothing
-                            //document.getElementById(travel).innerHTML = T
-                        }
-                </script>
-                <button type="submit" class="btn btn-default">Search</button>
                 <!-- on click="document.getElementById("demo").innerHTML = "Change text"> a tag the id="attribute"> -->
             </form>
         </ul>
@@ -84,7 +57,7 @@
         <marquee> <?php echo "$LocationA $LocationB"?> </marquee>
     <!-- <div class="jumbotron"> -->
       <!--<div class="container"> -->
-          <iframe src="/html/sampleMap.html" style="height: 90%; width: 100%" scrolling="no"></iframe>
+          <iframe src="/html/sampleMap.html" style="height: 700px; width: 600px" scrolling="no"></iframe>
           
           <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>-->
       <!-- </div> -->
@@ -98,7 +71,7 @@
                     <!--Put some sort of divider here?-->
                     <input type="text" name="LocationB" class="form-control" placeholder="Location B" id="locationb">
                 </div>
-
+                <button type="submit" class="btn btn-default">Search</button>
       <hr>
 
       <footer>
