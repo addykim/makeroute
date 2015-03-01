@@ -2604,9 +2604,10 @@ input[type="search"] {
   }
 }
 .form-group {
-    padding-left:auto;
-    padding-right:auto;
   margin-bottom: 15px;
+  width:auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .radio,
 .checkbox {
@@ -4177,6 +4178,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-left: -15px;
   }
 }
+/*
 .navbar-toggle {
   position: relative;
   float: right;
@@ -4189,6 +4191,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border: 1px solid transparent;
   border-radius: 0;
 }
+*/
 .navbar-toggle:focus {
   outline: 0;
 }
