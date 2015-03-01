@@ -25,6 +25,12 @@
     <!-- Load the Google Maps Places API -->
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
     <script src="/js/autocomplete.js"></script>
+    <script src="/js/addressToLatLng.js"></script>
+    <script type="text/javascript">
+      getLatLong(function(loc){
+        alert(loc);
+      });
+    </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -91,4 +97,3 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
-<!-- view-source:http://getbootstrap.com/examples/jumbotron/ Good reference link -->
