@@ -253,6 +253,7 @@ th {
   }
   .label {
     border: 1px solid #000;
+    text-align: center;
   }
   .table {
     border-collapse: collapse !important;
@@ -2605,7 +2606,7 @@ input[type="search"] {
 }
 .form-group {
   margin-bottom: 15px;
-  width:auto;
+  width:500px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2709,6 +2710,7 @@ select.form-group-sm .form-control {
 textarea.form-group-sm .form-control,
 select[multiple].form-group-sm .form-control {
   height: auto;
+  padding-left:50px;
 }
 .form-group-sm .form-control-static {
   height: 31px;
@@ -4262,6 +4264,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   margin-top: 0.5px;
   margin-bottom: 0.5px;
+  padd
 }
 @media (min-width: 768px) {
   .navbar-form .form-group {
